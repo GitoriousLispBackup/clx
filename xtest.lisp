@@ -46,6 +46,8 @@
 
 (in-package :xtest)
 
+(pushnew :clx-ext-test *features*)
+
 (define-extension "XTEST")
 
 (defmacro opcode (display)
